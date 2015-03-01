@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<config>
+    <modules>
+        <Atwix_HelloWorld>
+            <version>0.1.0</version>
+        </Atwix_HelloWorld>
+    </modules>
+    <frontend>
+        <routers>
+            <atwix_helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Atwix_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </atwix_helloworld>
+        </routers>
+    </frontend>
+</config>

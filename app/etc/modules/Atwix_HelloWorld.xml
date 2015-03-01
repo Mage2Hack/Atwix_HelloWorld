@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Atwix_HelloWorld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Atwix_HelloWorld>
+    </modules>
+</config>
