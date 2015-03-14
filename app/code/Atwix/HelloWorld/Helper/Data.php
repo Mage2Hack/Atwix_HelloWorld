@@ -20,7 +20,7 @@ class Data {
         try {
             require_once $this->_libDirectoryPath . '/atwix/helloworld/Adapter.php';
             $this->_adapter = new \Atwix\HelloWorld\Adapter\Atwix_Helloworld_Adapter();
-            
+
         } catch (Exception $e) {
             $logger->critical('Cannot load library for [EXTENSION_NAME]');
         }
